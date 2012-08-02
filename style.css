@@ -1,0 +1,1625 @@
+/*
+Theme Name: Pitch
+Theme URI: http://siteorigin.com/theme/pitch/
+Author: SiteOrigin
+Author URI: http://siteorigin.com/
+Version: 1.1.9
+License: GPL 3.0
+License URI: http://www.gnu.org/copyleft/gpl.html
+Description: Pitch is a simple, minimal business and portfolio theme. It uses custom post types to make it easy to add your content. Pitch also features a big bold slider to put your work front and center.
+Tags: gray, two-columns, fixed-width, custom-background, custom-menu, featured-images, theme-options, threaded-comments, translation-ready
+*/
+
+/* =Reset 
+-------------------------------------------------------------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =General 
+-------------------------------------------------------------- */
+
+body {
+	background: #f4f4f4;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.container {
+	position: relative;
+	width: 960px;
+	
+	display: block;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.separator {
+	height: 7px;
+	
+	background: url(images/pattern.png) repeat;
+	margin: 20px 0;
+}
+
+/* =Internet Explorer Fixes 
+-------------------------------------------------------------- */
+
+/* =Top Bar 
+-------------------------------------------------------------- */
+
+#topbar {
+	background: #2c2c2c;
+	box-shadow: 0 6px 0 rgba(0,0,0,0.05);
+	font-size: 11px;
+	padding: 15px 0;
+}
+
+#topbar-menu {
+	float: right;
+	text-align: right;
+	word-wrap: break-word;
+}
+
+#topbar-menu li.menu-item {
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+
+#topbar-menu li.menu-item a {
+	color: #f4f4f4;
+	text-decoration: none;
+}
+
+/* =Logo 
+-------------------------------------------------------------- */
+
+#logo {
+	width: 100%;
+	
+	margin: 35px 0;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#logo h1 {
+	color: #5e5e5e;
+	display: inline-block;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 48px;
+	letter-spacing: -2px;
+}
+
+/* =Logo  : Search Bar 
+-------------------------------------------------------------- */
+
+#logo #searchform {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	
+	margin-top: -16px;
+}
+
+#logo #searchform #s {
+	width: 200px;
+	
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(249,249,249,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(249,249,249,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(249,249,249,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(249,249,249,1) 100%);
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(249,249,249,1) 100%);
+	border: 1px solid #E2E2E2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: inset 1px 2px 3px rgba(0,0,0,0.06);
+	color: #707070;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+	font: italic 11px 'Droid Serif', serif;
+	outline: 2px #FAFAFA solid;
+	padding: 8px 10px;
+}
+
+#logo #searchform #s:focus {
+	outline: none;
+}
+
+#logo #searchform #searchsubmit {
+	display: none;
+}
+
+/* =Main Menu 
+-------------------------------------------------------------- */
+
+#mainmenu {
+	margin: 35px 0;
+	word-wrap: break-word;
+}
+
+ul#mainmenu-menu {
+	background: rgb(247,247,247);
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(244,244,244,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(244,244,244,1)));
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	border: 1px solid #E2E2E2;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f4f4f4',GradientType=0 );
+}
+
+ul#mainmenu-menu li.menu-item {
+	position: relative;
+	
+	border-right: 1px solid #E2E2E2;
+	display: block;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+ul#mainmenu-menu li.menu-item a {
+	color: #5e5e5e;
+	display: block;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+ul#mainmenu-menu li.menu-item a:hover {
+	background: #F9F9F9;
+}
+
+/* =Slider 
+-------------------------------------------------------------- */
+
+#slider {
+	margin: 35px 0;
+}
+
+/* =Slider  : Slides 
+-------------------------------------------------------------- */
+
+#slider .slides {
+	height: 360px;
+	
+	line-height: 0;
+}
+
+#slider .slides img {
+}
+
+/* =Slider  : Indicators 
+-------------------------------------------------------------- */
+
+#slider .indicators-wrapper {
+	width: 100%;
+	
+	border-collapse: collapse;
+	display: table;
+}
+
+#slider .indicators {
+	background: #f1f1f1;
+	display: table-row;
+}
+
+#slider .indicators .indicator {
+	height: 100%;
+	
+	border-bottom: 1px solid #c6c6c6;
+	border-top: 3px solid #c9c9c9;
+	cursor: pointer;
+	display: table-cell;
+}
+
+#slider .indicators .indicator .indicator-container {
+	position: relative;
+	
+	padding: 20px 25px;
+}
+
+#slider .indicators .indicator.active {
+	border-top-color: #bbbbbb;
+}
+
+#slider .indicators .indicator.active .indicator-container {
+	background-color: #ebebeb;
+}
+
+#slider .indicators .indicator .pointer {
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	width: 10px;
+	height: 5px;
+	
+	background: url(images/sprites/slide-active-pointer.png) no-repeat;
+	margin-left: -10px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+#slider .indicators .indicator.active .pointer {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* CSS3 Animations */
+
+#slider .indicators .indicator,
+#slider .indicators .indicator .pointer {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#slider .indicators .indicator h4 {
+	color: #5e5e5e;
+	font: bold 13px 'Droid Sans', sans-serif;
+}
+
+#slider .indicators .indicator p {
+	color: #777777;
+	font: italic 11px 'Droid Serif', serif;
+	margin-top: 2px;
+	min-height: 1em;
+}
+
+/* =Call To Action 
+-------------------------------------------------------------- */
+
+#call-to-action {
+	margin: 35px 0;
+}
+
+#call-to-action .container {
+	background: url(images/pattern.png) repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 25px;
+}
+
+#call-to-action h3 {
+	color: #555555;
+	font: 23px 'Droid Sans', sans-serif;
+}
+
+#call-to-action a {
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	
+	background: #474747;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	display: block;
+	font: italic 12px 'Droid Serif', serif;
+	margin-top: -17px;
+	padding: 10px 40px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+}
+
+/* =Feature List 
+-------------------------------------------------------------- */
+
+#site-features {
+}
+
+#site-features .feature-list {
+	margin: 0 -15px;
+}
+
+#site-features .feature {
+	width: 33.3333%;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 15px;
+}
+
+#site-features .feature .icon {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	
+	background: url(images/sprites/feature.png) no-repeat;
+	float: left;
+}
+
+#site-features .feature .icon img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	margin: -8px 0 0 -8px;
+}
+
+#site-features .feature h3 {
+	color: #3b3b3b;
+	font: bold 16px 'Droid Sans', sans-serif;
+	margin: 0 0 0 55px;
+	padding-top: 10px;
+}
+
+#site-features .feature p {
+	color: #474747;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+
+/* =Home Loop 
+-------------------------------------------------------------- */
+
+.home-loop {
+	margin: 50px 0;
+}
+
+.home-loop .container {
+}
+
+/* =Home Loop  : Nav 
+-------------------------------------------------------------- */
+
+.home-loop .nav {
+	float: right;
+}
+
+.home-loop .nav a {
+	width: 24px;
+	height: 21px;
+	
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+.home-loop .nav a.next {
+	background: url(images/sprites/home-posts-nav-next.png) no-repeat;
+}
+
+.home-loop .nav a.prev {
+	background: url(images/sprites/home-posts-nav-prev.png) no-repeat;
+}
+
+.home-loop h3 {
+	color: #3b3b3b;
+	font: 14px "Droid Sans", sans-serif;
+	margin-bottom: 30px;
+}
+
+.home-loop .post-list {
+	width: 9999px;
+	
+	overflow: hidden;
+}
+
+.home-loop .post-list-wrapper {
+	margin: 0 -10px;
+	overflow: hidden;
+}
+
+/* =Home Loop  : Post 
+-------------------------------------------------------------- */
+
+.home-loop .post-list li.post {
+	width: 225px;
+	
+	float: left;
+	padding: 0 10px;
+}
+
+.home-loop .post-list li.post a {
+	text-decoration: none;
+}
+
+.home-loop .post-list li.post img {
+	margin-bottom: 13px;
+}
+
+.home-loop .post-list li.post .placeholder {
+	width: 225px;
+	height: 150px;
+	
+	background: #E9E9E9;
+	display: block;
+	margin-bottom: 13px;
+}
+
+.home-loop .post-list li.post.type-client img {
+	width: 100%;
+	height: auto;
+	
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.home-loop .post-list li.post h4 {
+	color: #3b3b3b;
+	font: bold 12px 'Droid Sans', sans-serif;
+	margin-bottom: 9px;
+	text-align: center;
+}
+
+.home-loop .post-list li.post p {
+	color: #777777;
+	font: italic 12px 'Droid Serif', serif;
+	line-height: 1.4em;
+}
+
+/* =Blog Post Loop 
+-------------------------------------------------------------- */
+
+#loop {
+	width: 620px;
+	
+	float: left;
+}
+
+#loop.loop-posts {
+}
+
+#loop.loop-posts .post,
+#loop.loop-posts > div {
+	margin-bottom: 60px;
+}
+
+#loop.loop-posts .sticky {
+}
+
+#loop.loop-posts .post-info {
+	width: 120px;
+	
+	float: left;
+}
+
+/* =Blog Post Loop  : Date 
+-------------------------------------------------------------- */
+
+#loop.loop-posts .post-info .date {
+	background-image: url(images/pattern.png);
+	color: #474747;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+}
+
+#loop.loop-posts .post-info .date .day {
+	font-size: 30px;
+}
+
+#loop.loop-posts .post-info .date .month-year {
+	float: right;
+	line-height: 1.25em;
+	padding-top: 1px;
+}
+
+#loop.loop-posts .post-info .extras {
+	font-size: 11px;
+	text-align: right;
+}
+
+#loop.loop-posts .post-info .extras div {
+	margin-bottom: 8px;
+}
+
+#loop.loop-posts .post-info .extras a {
+	color: #474747;
+	text-decoration: none;
+}
+
+#loop.loop-posts .post-info .extras a:hover {
+	text-decoration: underline;
+}
+
+#loop.loop-posts .post-main {
+	margin-left: 160px;
+}
+
+#loop.loop-posts .post-main .content {
+	color: #5e5e5e;
+	line-height: 1.5em;
+}
+
+#loop.loop-posts .post-main h2.post-title {
+	font: bold 14px 'Droid Sans', sans-serif;
+	margin: 15px 0;
+}
+
+#loop.loop-posts .post-main h2.post-title a {
+	color: #474747;
+	text-decoration: none;
+}
+
+#loop.loop-posts .post-main .read-more {
+	margin-top: 25px;
+}
+
+#loop.loop-posts .post-main .read-more a {
+	color: #303030;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#loop.loop-posts .post-main .read-more a i {
+	width: 6px;
+	height: 10px;
+	
+	background: url(images/sprites/read-more-arrow.png) no-repeat;
+	display: inline-block;
+	margin: 0 0 -1px 5px;
+}
+
+/* =Archive 
+-------------------------------------------------------------- */
+
+h1#archive-title {
+	color: #474747;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+/* =Archive  : Navigation 
+-------------------------------------------------------------- */
+
+/* =Project Archive 
+-------------------------------------------------------------- */
+
+#projects {
+	margin: 0 -10px;
+}
+
+#projects .project {
+	width: 245px;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+#projects .project .wrapper {
+	position: relative;
+	
+}
+
+#projects .project a.image {
+	background: #F0F0F0 url(images/loader.gif) no-repeat center center;
+	display: block;
+	line-height: 0;
+}
+
+#projects .project .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	background: #000;
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#projects .project .info {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#projects .project .overlay {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+
+#projects .project .info {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+#projects .project:hover .overlay {
+	opacity: 0.7;
+	visibility: visible;
+}
+
+#projects .project:hover .info {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+#projects .project .info h3 {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	
+	background: #000;
+	color: #CCC;
+	display: inline-block;
+	font: italic 16px 'Droid Serif', serif;
+	padding: 10px;
+}
+
+#projects .project .info p {
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+	
+	background: #000;
+	color: #CCC;
+	display: inline-block;
+	font: normal normal 14px 'Droid Sans', sans-serif;
+	padding: 10px;
+}
+
+/* =Post Single 
+-------------------------------------------------------------- */
+
+#post-single {
+	margin: 35px 0;
+}
+
+#post-single .separator.first {
+	margin-top: 0px;
+}
+
+#post-single .separator.light {
+	opacity: 0.4;
+}
+
+#post-single h1.post-title {
+	color: #474747;
+	font: 26px 'Droid Sans', sans-serif;
+	margin-bottom: 25px;
+}
+
+/* =Post Single  : General Content 
+-------------------------------------------------------------- */
+
+.entry-content {
+	color: #555;
+	line-height: 1.5em;
+}
+
+.entry-content p {
+	margin: 1.5em 0;
+}
+
+.entry-content ol {
+	list-style-type: decimal;
+	padding-left: 1.5em;
+}
+
+.entry-content ul {
+	list-style-type: disc;
+	padding-left: 1.5em;
+}
+
+.entry-content ul li,
+.entry-content ol li {
+	line-height: 1.5em;
+}
+
+.entry-content a {
+	color: #1e7cd2;
+}
+
+.entry-content a:hover {
+	color: #4593ec;
+}
+
+.entry-content strong,
+.entry-content b {
+	color: #444;
+	font-weight: bold;
+}
+
+.entry-content em,
+.entry-content i {
+	font-style: italic;
+}
+
+.entry-content blockquote {
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	padding-left: 2em;
+}
+
+.entry-content blockquote cite {
+	display: block;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.entry-content .flexslider {
+	margin: 1.5em 0;
+}
+
+/* =Post Single  : General Content  : Definition list 
+-------------------------------------------------------------- */
+
+.entry-content dl {
+	margin-top: 1.5em;
+}
+
+.entry-content dl dt {
+	display: block;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.entry-content dl dd {
+	margin-bottom: 1em;
+	padding-left: 1.5em;
+}
+
+/* =Post Single  : General Content  : Table 
+-------------------------------------------------------------- */
+
+#post-single table {
+	width: 100%;
+	
+}
+
+/* =Post Single  : General Content  : Images 
+-------------------------------------------------------------- */
+
+.entry-content img {
+	height: auto;
+	
+	max-width: 100%;
+}
+
+.alignnone {
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0px 20px 20px;
+}
+
+a img.alignnone {
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */ 
+	padding: 5px 3px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	width: auto;
+	height: auto;
+	
+	border: 0 none;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px;
+}
+
+/* =Post Single  : General Content  : Headings 
+-------------------------------------------------------------- */
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	color: #333;
+	font-family: 'Droid Sans', sans-serif;
+	margin: 1.5em 0;
+}
+
+.entry-content h1 {
+	font-size: 1.8em;
+}
+
+.entry-content h2 {
+	font-size: 1.7em;
+}
+
+.entry-content h3 {
+	font-size: 1.6em;
+}
+
+.entry-content h4 {
+	font-size: 1.45em;
+}
+
+.entry-content h5 {
+	font-size: 1.375em;
+}
+
+.entry-content h6 {
+	font-size: 1.2em;
+}
+
+/* =Post Single  : Page 
+-------------------------------------------------------------- */
+
+#post-single.type-page .post-container,
+#post-single.error-404 .post-container {
+	width: 620px;
+	
+	float: left;
+}
+
+/* =Post Single  : Post 
+-------------------------------------------------------------- */
+
+#post-single.type-post {
+}
+
+#post-single.type-post .post-container {
+	width: 620px;
+	
+	float: left;
+}
+
+#post-single.type-post .post-info {
+	color: #777;
+	font: italic 11px 'Droid Serif', serif;
+	margin-bottom: 25px;
+	margin-top: -18px;
+}
+
+#post-single.type-post .post-info a {
+	color: #505050;
+	text-decoration: none;
+}
+
+/* =Post Single  : Project 
+-------------------------------------------------------------- */
+
+/* =Post Single  : Project  : Images 
+-------------------------------------------------------------- */
+
+#post-single.type-project #project-images {
+	width: 300px;
+	
+	float: left;
+}
+
+#post-single.type-project #project-images .image {
+	position: relative;
+	
+	line-height: 0;
+}
+
+#post-single.type-project #project-images .pagination {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	
+	display: block;
+	text-align: center;
+}
+
+#post-single.type-project #project-images .pagination li {
+	display: inline-block;
+	margin: 0 1px;
+}
+
+#post-single.type-project #project-images .pagination li a {
+	width: 10px;
+	height: 11px;
+	
+	background: url(images/sprites/image-pagination-normal.png) no-repeat;
+	display: block;
+}
+
+#post-single.type-project #project-images .pagination li.active a {
+	background: url(images/sprites/image-pagination-active.png) no-repeat;
+}
+
+#post-single.type-project #project-images img {
+	width: 100%;
+	height: auto;
+	
+}
+
+#post-single.type-project #project-info {
+	width: 620px;
+	
+	float: right;
+}
+
+#post-single.type-project #project-info h1 {
+	color: #474747;
+	font: 16px 'Droid Sans', sans-serif;
+}
+
+#post-single.type-project #project-info .excerpt {
+	color: #777777;
+	font: italic 12px 'Droid Serif', serif;
+	line-height: 1.4em;
+}
+
+#post-single.type-project .skills {
+	color: #777777;
+}
+
+#post-single.type-project .skills strong {
+	color: #474747;
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+#post-single.type-project .skills a {
+	color: #777777;
+	font-family: 'Droid serif', sans-serif;
+	font-style: italic;
+	text-decoration: none;
+}
+
+/* =Pagination 
+-------------------------------------------------------------- */
+
+#loop .pagination .separator {
+	clear: both;
+}
+
+#loop .pagination .nav-next {
+	float: right;
+	padding-right: 10px;
+}
+
+#loop .pagination .nav-previous {
+	float: left;
+	padding-left: 10px;
+}
+
+#loop .pagination a {
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+/* =Comments 
+-------------------------------------------------------------- */
+
+#comments {
+	margin-top: 35px;
+}
+
+/* =Comments  : Single Comment 
+-------------------------------------------------------------- */
+
+#comment-list {
+	margin-top: -5px;
+}
+
+.comment,
+.pingback {
+	list-style: none;
+	margin: 35px 0;
+}
+
+.comment.bypostauthor {
+}
+
+.comment .avatar-container {
+	position: relative;
+	width: 65px;
+	height: 65px;
+	
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+	float: left;
+}
+
+.comment .avatar-container .shadow {
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 65px;
+	height: 8px;
+	
+	background: url(images/sprites/comment-shadow.png) no-repeat;
+}
+
+.comment .comment-text {
+	margin-left: 90px;
+}
+
+.comment .comment-text .content {
+	color: #6a6a6a;
+	margin-bottom: 20px;
+}
+
+.comment .comment-separator {
+	position: relative;
+	width: 9px;
+	height: 1px;
+	
+	background: #ababab;
+	margin-bottom: 15px;
+}
+
+.comment .comment-separator a.comment-reply-link {
+	position: absolute;
+	top: -6px;
+	left: 24px;
+	
+	color: #303030;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.comment .comment-info {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 12px;
+}
+
+.comment .comment-info .comment-author,
+.comment .comment-info .comment-author a {
+	color: #303030;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+.comment .comment-info .comment-date {
+	color: #5e5e5e;
+}
+
+/* =Comments  : Single Comment  : Pingback 
+-------------------------------------------------------------- */
+
+.pingback .pingback-title,
+.pingback .pingback-title a {
+	color: #303030;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+.pingback .pingback-date {
+	color: #5e5e5e;
+	margin-bottom: 10px;
+}
+
+.pingback .pingback-content {
+	color: #474747;
+}
+
+/* =Comments  : Single Comment  : Multi Levels 
+-------------------------------------------------------------- */
+
+.comment .comment {
+	margin-left: 90px;
+}
+
+/* =Comments  : Respond 
+-------------------------------------------------------------- */
+
+h3#reply-title,
+h3#reply-title a,
+h3#comments-title {
+	color: #333;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 17px;
+	margin-bottom: 1.5em;
+}
+
+#comment-list #respond {
+	background: #EFEFEF;
+	border: 1px solid #E2E2E2;
+	padding: 20px;
+}
+
+#comment-list .comment #respond {
+	margin-left: 90px;
+}
+
+#respond {
+	margin-bottom: 35px;
+}
+
+#commentform #comment,
+#commentform .comment-form-field input {
+	border: 1px solid #DDD;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #666;
+	font: italic 12px 'Droid Serif', serif;
+	padding: 10px;
+}
+
+#commentform .comment-form-field input {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#commentform #comment {
+	width: 100%;
+	height: 200px;
+	
+}
+
+#commentform .comment-form-field input:focus,
+#commentform .comment-form-field input:hover,
+#commentform #comment:hover,
+#commentform #comment:focus {
+	border-color: #C0C0C0;
+}
+
+#commentform .comment-form-field label {
+	color: #525252;
+	font-size: 11px;
+}
+
+#commentform .logged-in-as {
+	color: #777;
+	margin-bottom: 15px;
+}
+
+#commentform .logged-in-as a {
+	color: #1e7cd2;
+	text-decoration: none;
+}
+
+#commentform .comment-form-field,
+#commentform .comment-form-comment {
+	margin-bottom: 10px;
+}
+
+#commentform input[type=submit] {
+	background: rgb(247,247,247);
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(244,244,244,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(244,244,244,1)));
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	border: 1px solid #cbc9c9;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	color: #525252;
+	cursor: pointer;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f4f4f4',GradientType=0 );
+	font: bold 10px/1 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 14px 20px;
+	text-shadow: 0 1px 0 #FFF;
+}
+
+#commentform input[type=submit]:hover {
+	border: 1px solid #BBB;
+}
+
+/* =Sidebar 
+-------------------------------------------------------------- */
+
+#sidebar {
+	width: 280px;
+	
+	float: right;
+	word-wrap: break-word;
+}
+
+#sidebar .widget {
+	color: #767676;
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+#sidebar img {
+	height: auto;
+	
+	max-width: 100%;
+}
+
+#sidebar .widget .separator {
+	height: 5px;
+	
+	background: #eeeeee url(images/pattern.png) repeat;
+	border: solid #dedede;
+	border-width: 1px 0;
+	margin-top: 20px;
+}
+
+#sidebar .widget h2.widgettitle {
+	color: #3b3b3b;
+	font: 14px 'Droid Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+#sidebar .widget div {
+	line-height: 1.5em;
+}
+
+#sidebar .widget a {
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+#sidebar .widget ul li {
+	margin-bottom: 3px;
+}
+
+/* =Footer and Copyright 
+-------------------------------------------------------------- */
+
+#footer {
+	position: relative;
+	
+	background: url(images/footer.png) repeat;
+	margin-top: 45px;
+	padding: 45px 0;
+}
+
+#footer .container {
+	width: 990px;
+	
+	display: table;
+}
+
+#footer .pointer {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 30px;
+	height: 15px;
+	
+	background: url(images/sprites/footer-pointer.png) no-repeat;
+	margin-left: -15px;
+	z-index: 2;
+}
+
+/* =Footer and Copyright  : Widgets 
+-------------------------------------------------------------- */
+
+#footer ul.widgets {
+	width: 100%;
+	
+	display: table-row;
+}
+
+#footer li.widget {
+	display: table-cell;
+	padding: 0 15px;
+}
+
+#footer li.widget h2.widgettitle {
+	color: #dbdbdb;
+	font: bold 14px 'Droid Sans', sans-sefid;
+	line-height: 1em;
+	margin-bottom: 30px;
+}
+
+#footer li.widget {
+	color: #b8b8b8;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+#footer li.widget p {
+	margin-top: 1em;
+}
+
+#footer li.widget a {
+	color: #e1e1e1;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+#copyright {
+	background: #181818;
+	box-shadow: inset 0 5px 0 rgba(0,0,0,0.2);
+	color: #b6b6b6;
+	font-size: 10px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#copyright a {
+	color: #CCC;
+	text-decoration: none;
+}
+
+/* =Flex Slider 
+-------------------------------------------------------------- */
+
+.gallery-caption {
+}
+
+.flexslider {
+	position: relative;
+	width: 100%;
+	
+	margin-bottom: 40px;
+}
+
+.flexslider img {
+	width: 100%;
+	height: auto;
+	
+}
+
+.flexslider ul,
+.flexslider ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flexslider .shadow,
+#project-images .shadow {
+	position: absolute;
+	bottom: -31px;
+	left: 0;
+	width: 600px;
+	height: 31px;
+	
+	/* background: url(images/sprites/shadow-large.png) no-repeat center center; */
+}
+
+.flexslider .flex-control-nav {
+	display: none;
+}
+
+.flexslider .flex-direction-nav {
+}
+
+.flexslider .flex-direction-nav a {
+	position: absolute;
+	top: 50%;
+	width: 18px;
+	height: 26px;
+	
+	display: block;
+	margin-top: -13px;
+	opacity: 0;
+	text-indent: -9999px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.flexslider:hover .flex-direction-nav a {
+	opacity: 1;
+}
+
+.flexslider .flex-direction-nav a.prev {
+	left: 25px;
+	
+	background: url(images/sprites/gallery-prev.png) no-repeat;
+}
+
+.flexslider .flex-direction-nav a.prev:active {
+	left: 20px;
+	
+}
+
+.flexslider .flex-direction-nav a.next {
+	right: 25px;
+	
+	background: url(images/sprites/gallery-next.png) no-repeat;
+}
+
+.flexslider .flex-direction-nav a.next:active {
+	right: 20px;
+	
+}
+

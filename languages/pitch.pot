@@ -1,0 +1,859 @@
+# Copyright SiteOrigin (c) 2012
+# This file is distributed under the GNU General Public License 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: pitch 1.1.9\n"
+"POT-Creation-Date: 2012-07-26T13:33:02+02:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Older Comments"
+msgstr ""
+
+msgid "Newer Comments"
+msgstr ""
+
+msgid "This Is a Feature"
+msgstr ""
+
+msgid "You can use features to give some unique selling points about your product or service."
+msgstr ""
+
+msgid "Loads of Bundled Icons"
+msgstr ""
+
+msgid "Pitch comes with a whole bunch of icons you can use. There are over 200 icons - so you'll be able to find the perfect one for any feature."
+msgstr ""
+
+msgid "Choose Your Own"
+msgstr ""
+
+msgid "The usual applies. Add your own features or disable features entirely to remove these defaults."
+msgstr ""
+
+msgid "Show off your high profile clients here"
+msgstr ""
+
+msgid "As usual, just add your own clients to disable this default block"
+msgstr ""
+
+msgid "Or you can disable clients completely"
+msgstr ""
+
+msgid "It's really up to you. Go wild!"
+msgstr ""
+
+msgid "previous"
+msgstr ""
+
+msgid "next"
+msgstr ""
+
+msgid "Demo Project"
+msgstr ""
+
+msgid "This is a demo project."
+msgstr ""
+
+msgid "Add your own projects to remove these defaults."
+msgstr ""
+
+msgid "Or you can disable projects entirely."
+msgstr ""
+
+msgid "Don't forget to test out the arrows for this block."
+msgstr ""
+
+msgid "Pretty nifty hey?"
+msgstr ""
+
+msgid "Well go on now, download Pitch and give it a try."
+msgstr ""
+
+msgid "This is just a demo page. When you add your own projects or disable demo mode, it'll disappear."
+msgstr ""
+
+msgid "This is A Project Title"
+msgstr ""
+
+msgid "View Project"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Projects"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "Theme Features"
+msgstr ""
+
+msgid "Pitch is a pretty cool portfolio theme with a whole bunch of features that make setting up a custom business portfolio site really easy."
+msgstr ""
+
+msgid "Pitch Supports These Fine WordPress Features"
+msgstr ""
+
+msgid "Several Custom Post Types"
+msgstr ""
+
+msgid "Adding content is as easy as adding a few custom posts."
+msgstr ""
+
+msgid "Custom Header Images"
+msgstr ""
+
+msgid "We let you upload your logo using WordPress' custom headers feature."
+msgstr ""
+
+msgid "Custom Backgrounds"
+msgstr ""
+
+msgid "Change your background in a jiffy."
+msgstr ""
+
+msgid "Navigation Menus"
+msgstr ""
+
+msgid "Build your menus using WordPress' drag and drop interface."
+msgstr ""
+
+msgid "Child Themes"
+msgstr ""
+
+msgid "Pitch was build with child theming in mind. It's easy to add your own custom CSS or HTML."
+msgstr ""
+
+msgid "Pitch also features a really nice simple options panel. It's WordPress, the way WordPress was meant to be experienced."
+msgstr ""
+
+msgid "This is A Demo Project"
+msgstr ""
+
+msgid "This is the excerpt. You can add a little description about your project here."
+msgstr ""
+
+msgid "This is the project content, you can add a whole load of content here. It'll show up, complete with formatting and all that cool stuff."
+msgstr ""
+
+msgid "This demo project will stop showing up on your site when you add your first real project or when you disable projects entirely - but why would you do that?"
+msgstr ""
+
+msgid "A Demo Slide"
+msgstr ""
+
+msgid "And a demo slide description"
+msgstr ""
+
+msgid "This is The Slide Title"
+msgstr ""
+
+msgid "This is the slide excerpt"
+msgstr ""
+
+msgid "Slides Are Easy To Add"
+msgstr ""
+
+msgid "You can do it right from your admin"
+msgstr ""
+
+msgid "dismiss"
+msgstr ""
+
+msgid "Hi! I'm Greg Priday from SiteOrigin."
+msgstr ""
+
+msgid "I hope you enjoy my WordPress theme."
+msgstr ""
+
+msgid "Please follow me on Twitter and Facebook for updates."
+msgstr ""
+
+msgid "Premium Upgrade"
+msgstr ""
+
+msgid "There's a premium version of %s available, <a href='%s'>find out more</a>."
+msgstr ""
+
+msgid "After you pay for %s Premium, we'll email you a download link and an order number to your <strong>PayPal email address</strong>. "
+msgstr ""
+
+msgid "You can install manually, or enter your order number here to enable an automatic upgrade."
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Enable Upgrade"
+msgstr ""
+
+msgid "Already Paid?"
+msgstr ""
+
+msgid "There was a problem contacting our validation servers."
+msgstr ""
+
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+msgid "We've validated your order number."
+msgstr ""
+
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+
+msgid "This update will unlock all the premium features."
+msgstr ""
+
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+msgid "Update Theme"
+msgstr ""
+
+msgid "We  <strong>invalid</strong>."
+msgstr ""
+
+msgid "Please try again, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+msgid "Note that you need a valid order number to receive automatic updates in the future."
+msgstr ""
+
+msgid "Check out the <a href='%s'>documentation</a> for %s. "
+msgstr ""
+
+msgid "Please like and follow SiteOrigin to hear about my new WordPress freebies."
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Please read %s's <a href='%s'>Documentation</a>."
+msgstr ""
+
+msgid "Theme Documentation"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "<a href=\"%s\">Premium version</a> only"
+msgstr ""
+
+msgid "Unknown Field Type"
+msgstr ""
+
+msgid "Premium Theme Support"
+msgstr ""
+
+msgid "Need some theme support? Just fill out a <a href='%s'>support request</a> and we'll get back to you. "
+msgstr ""
+
+msgid "Theme Support"
+msgstr ""
+
+msgid "We offer email support to everyone who upgrades to <a href=\"%s\">%s Premium</a>."
+msgstr ""
+
+msgid "We still love you, even if you're using %s Free. We just want to offer the best service possible to the fine people who have purchased our Premium themes."
+msgstr ""
+
+msgid "%s Order Code"
+msgstr ""
+
+msgid "Order Code"
+msgstr ""
+
+msgid "Find your order code in your original download email from SiteOrigin"
+msgstr ""
+
+msgid "Copyright %s - Powered By %s, Theme By %s"
+msgstr ""
+
+msgid "Copyright %s"
+msgstr ""
+
+msgid "Add New Client"
+msgstr ""
+
+msgid "Edit Client"
+msgstr ""
+
+msgid "New Client"
+msgstr ""
+
+msgid "All Clients"
+msgstr ""
+
+msgid "View Client"
+msgstr ""
+
+msgid "Search Clients"
+msgstr ""
+
+msgid "No clients found"
+msgstr ""
+
+msgid "No clients found in Trash"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comment	"
+msgstr ""
+
+msgid "Add New Feature"
+msgstr ""
+
+msgid "Edit Feature"
+msgstr ""
+
+msgid "New Feature"
+msgstr ""
+
+msgid "All Features"
+msgstr ""
+
+msgid "View Feature"
+msgstr ""
+
+msgid "Search Features"
+msgstr ""
+
+msgid "No features found"
+msgstr ""
+
+msgid "No features found in Trash"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Feature Icon"
+msgstr ""
+
+msgid "Add New Project"
+msgstr ""
+
+msgid "Edit Project"
+msgstr ""
+
+msgid "New Project"
+msgstr ""
+
+msgid "All Projects"
+msgstr ""
+
+msgid "Search Projects"
+msgstr ""
+
+msgid "No projects found"
+msgstr ""
+
+msgid "No projects found in Trash"
+msgstr ""
+
+msgid "Skills"
+msgstr ""
+
+msgid "Skill"
+msgstr ""
+
+msgid "Search Skills"
+msgstr ""
+
+msgid "All Skills"
+msgstr ""
+
+msgid "Parent Skill"
+msgstr ""
+
+msgid "Parent Skill:"
+msgstr ""
+
+msgid "Edit Skill"
+msgstr ""
+
+msgid "Update Skill"
+msgstr ""
+
+msgid "Add New Skill"
+msgstr ""
+
+msgid "New Skill Name"
+msgstr ""
+
+msgid "Read <a href='%s'>Pitch's documentation</a> for help with adding projects."
+msgstr ""
+
+msgid "Project Video"
+msgstr ""
+
+msgid "Upgrade to Pitch Premium to set a project video. "
+msgstr ""
+
+msgid "Find out more"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Front Page"
+msgstr ""
+
+msgid "Front Page Slider"
+msgstr ""
+
+msgid "Project Page"
+msgstr ""
+
+msgid "Post Types"
+msgstr ""
+
+msgid "Site Text"
+msgstr ""
+
+msgid "Demo Mode"
+msgstr ""
+
+msgid "You should disable this after you've installed Pitch."
+msgstr ""
+
+msgid "Search Input"
+msgstr ""
+
+msgid "Show the search field at the top of your site."
+msgstr ""
+
+msgid "Portfolio Home Page"
+msgstr ""
+
+msgid "Disabling this will convert your home page into a blog."
+msgstr ""
+
+msgid "Call To Action Text"
+msgstr ""
+
+msgid "Call to action text on your home page."
+msgstr ""
+
+msgid "Call To Action Button Text"
+msgstr ""
+
+msgid "Call To Action Button URL"
+msgstr ""
+
+msgid "Display Blog on Home Page"
+msgstr ""
+
+msgid "Title: Latest Projects"
+msgstr ""
+
+msgid "Title of the projects block"
+msgstr ""
+
+msgid "Title: Blog"
+msgstr ""
+
+msgid "Title of the clients block"
+msgstr ""
+
+msgid "Title: Clients"
+msgstr ""
+
+msgid "Slider Speed"
+msgstr ""
+
+msgid "Number of milliseconds Pitch shows each slide"
+msgstr ""
+
+msgid "Slider Transition Speed"
+msgstr ""
+
+msgid "Number of milliseconds each slide transition takes"
+msgstr ""
+
+msgid "Maximum Slides"
+msgstr ""
+
+msgid "Slide Transition"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Slice Down"
+msgstr ""
+
+msgid "Slice Down Left"
+msgstr ""
+
+msgid "Slice Up"
+msgstr ""
+
+msgid "Slice Up Left"
+msgstr ""
+
+msgid "Slice Up Down"
+msgstr ""
+
+msgid "Slice Up Down Left"
+msgstr ""
+
+msgid "Fold"
+msgstr ""
+
+msgid "Fade"
+msgstr ""
+
+msgid "Slide In Right"
+msgstr ""
+
+msgid "Slide In Left"
+msgstr ""
+
+msgid "Box Random"
+msgstr ""
+
+msgid "Box Rain"
+msgstr ""
+
+msgid "Box Rain Reverse"
+msgstr ""
+
+msgid "Box Rain Grow"
+msgstr ""
+
+msgid "Box Rain Grow Reverse"
+msgstr ""
+
+msgid "Slider Height"
+msgstr ""
+
+msgid "The height of the home page slider in pixels. You need to regenerate thumbnails if you change this."
+msgstr ""
+
+msgid "Project Tags"
+msgstr ""
+
+msgid "Use project skill tags."
+msgstr ""
+
+msgid "Projects Archive Title"
+msgstr ""
+
+msgid "View Project Text"
+msgstr ""
+
+msgid "The text displayed to view a project."
+msgstr ""
+
+msgid "The slug used for a project's URL."
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+msgid "Search Placeholder"
+msgstr ""
+
+msgid "Comments Closed Text"
+msgstr ""
+
+msgid "404 Error Page Text"
+msgstr ""
+
+msgid "Displayed on 404 error page."
+msgstr ""
+
+msgid "Enter Your Call To Action Text Here"
+msgstr ""
+
+msgid "Click Me"
+msgstr ""
+
+msgid "Latest Projects"
+msgstr ""
+
+msgid "From Our Blog"
+msgstr ""
+
+msgid "Our Clients"
+msgstr ""
+
+msgid "Search Everything"
+msgstr ""
+
+msgid "Comments Are Closed"
+msgstr ""
+
+msgid "The page you were looking for could not be found."
+msgstr ""
+
+msgid "Add New Slide"
+msgstr ""
+
+msgid "Edit Slide"
+msgstr ""
+
+msgid "New Slide"
+msgstr ""
+
+msgid "All Slide"
+msgstr ""
+
+msgid "View Slide"
+msgstr ""
+
+msgid "Search Slides"
+msgstr ""
+
+msgid "No slides found"
+msgstr ""
+
+msgid "No slides found in Trash"
+msgstr ""
+
+msgid "Slides"
+msgstr ""
+
+msgid "Read <a href='%s'>Pitch's documentation</a> for help with adding slides."
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Upgrade to Pitch Premium to specify a slide destination. "
+msgstr ""
+
+msgid "Top Bar Menu"
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Main sidebar."
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Website footer."
+msgstr ""
+
+msgid "%s Comments"
+msgstr ""
+
+msgid "By %s"
+msgstr ""
+
+msgid "Read More"
+msgstr ""
+
+msgid "Newer Entries"
+msgstr ""
+
+msgid "Older Entries"
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "%s adds any custom CSS you enter here into your site's header. "
+msgstr ""
+
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr ""
+
+msgid "Contact <a href='%s' target='_blank'>SiteOrigin Support</a> for help with making edits. "
+msgstr ""
+
+msgid "Changes apply to %s and its child themes"
+msgstr ""
+
+msgid "Save CSS"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Enter the URL of any oEmbed compatible video service"
+msgstr ""
+
+msgid "Attribution Links"
+msgstr ""
+
+msgid "Show SiteOrigin and WordPress links in your footer."
+msgstr ""
+
+msgid "A destination post ID"
+msgstr ""
+
+msgid "Displays a video."
+msgstr ""
+
+msgid "Video Widget"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Displays social network links."
+msgstr ""
+
+msgid "Social Widget"
+msgstr ""
+
+msgid "%s Link"
+msgstr ""
+
+msgid "Your Name"
+msgstr ""
+
+msgid "Your Email"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Related Projects"
+msgstr ""
+
+msgid "Post on %s by %s"
+msgstr ""
+
+msgid " tagged: "
+msgstr ""
+
+msgid "I hope you're enjoying Pitch. "
+msgstr ""
+
+msgid "<a href='mailto:support@siteorigin.com'>Email me</a> if you've read the documentation and still need help. "
+msgstr ""
+
+msgid "Follow me for updates "
+msgstr ""
+
+msgid "Hi <em>Pitch Premium</em> user! "
+msgstr ""
+
+msgid "We've change how we're handling premium themes. "
+msgstr ""
+
+msgid "Your current version of Pitch Premium will continue functioning like before, but to receive future updates, please follow our <a href='%s'>3 minute update guide</a>."
+msgstr ""
+
+msgid "Read Pitch's <a href='%s' target='_blank'>documentation</a> for help setting up and using it."
+msgstr ""
+
+msgid "Upgrade to Pitch Premium"
+msgstr ""
+
+msgid "Download Now"
+msgstr ""
+
+msgid "If you're not delighted with Pitch Premium, I'll give you a full refund"
+msgstr ""
+
+msgid "Email Support"
+msgstr ""
+
+msgid "Need help setting up Pitch? Upgrading to Pitch Premium gives you access to email support for answers to any questions you can't find in the theme documentation."
+msgstr ""
+
+msgid "Sprite Maps"
+msgstr ""
+
+msgid "If you're targeting a perfect Google PageSpeed score and all the SEO benefits it brings, then sprite maps are essential. They'll make your site load faster and put less load on your servers - saving you cash."
+msgstr ""
+
+msgid "Contact Form 7 Integration"
+msgstr ""
+
+msgid "Pitch Premium includes CSS and formatting code to make your <a href=\"%s\">Contact Form 7</a> forms fit right in to the look and feel of Pitch."
+msgstr ""
+
+msgid "Additional Widgets"
+msgstr ""
+
+msgid "The social widget lets you list your social profiles in your sidebar or footer. The video widget lets you put a video in your sidebar."
+msgstr ""
+
+msgid "Page Templates"
+msgstr ""
+
+msgid "You also get the full width page template, with more templates coming soon."
+msgstr ""
+
+msgid "Video Projects"
+msgstr ""
+
+msgid "Need to show off a video as one of your projects? Pitch Premium lets you add the URL for any video sharing site. It automatically fetches the video's embed code and displays it in your project.	"
+msgstr ""
+
+msgid "Linkable Slider"
+msgstr ""
+
+msgid "Pitch Premium lets you choose a destination post, page or project for each of your slider slides. This changes your homepage from something users just look at, into a gateway to the rest of your site."
+msgstr ""
+
+msgid "Remove Attribution Links"
+msgstr ""
+
+msgid "Pitch premium gives you the option to easily remove the \"Powered by WordPress, Theme by SiteOrigin\" text from your footer. "
+msgstr ""
+
+msgid "Remember, if you're not satisfied, you get your money back"
+msgstr ""
+
+msgid "Upgrade To Pitch Premium"
+msgstr ""
+
+msgid "If you've enjoyed using Pitch, you'll going to love Pitch Premium. It's a robust upgrade to Pitch that gives you loads of cool features and premium support. At just <strong>$9</strong>, it's a cost effective way to give your site a professional edge."
+msgstr ""
+
+msgid "Dropdown Menu"
+msgstr ""
+
+msgid "Pitch Premium supports drop down menus for the main menu. Perfect if you have a lot of content."
+msgstr ""
